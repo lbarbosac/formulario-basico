@@ -1,0 +1,70 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    background-color: #0c0Ce94d;
+}
+
+fieldset {
+    text-align: center;
+    background-color: #bbb;
+    width: 500px;
+}
+
+legend {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    text-align: center;
+    margin-left: 340px;
+}
+
+.dados {
+    cursor: pointer;
+    background-color: #bbb;
+    border-radius: 6px;
+}
+
+::placeholder {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dados:houver {
+    background-color: blue;
+}
+
+input:hover {
+    background-color: #ccc;
+}
+
+button {
+    cursor: pointer;
+}
+
+#descricao {
+    margin-right: 191px;
+}
+
+textarea {
+    background-color: #ccc;
+    border-radius: 6px;     
+}
+
+#botaoCadastrar {
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #ccc;
+}
+
+#botaoCadastrar:hover {
+    background-color: greenyellow;
+}
+
+
